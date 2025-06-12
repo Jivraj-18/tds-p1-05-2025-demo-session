@@ -196,5 +196,5 @@ async def api_answer(request: Request):
 
 if __name__ == "__main__":
     import uvicorn 
-    uvicorn.run(app, host="0.0.0.0", port=8000)  # Default port for FastAPI
+    uvicorn.run(app, host="0.0.0.0", port=10000 )  # Default port for FastAPI
     # main()
